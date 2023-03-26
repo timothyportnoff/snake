@@ -10,10 +10,12 @@
 #elif __windows__ 
 #include <synchapi.h>
 #endif
+#include "snake.cc"
 
 using std::cout;
 using std::endl;
 using std::flush;
+
 
 class Snake {
 	int length = 0;
